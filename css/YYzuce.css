@@ -1,0 +1,72 @@
+body{
+	background-color:rgb(0,0,0);
+}
+body,div,input,img,ul,ol,li,button{margin:0;padding:0;}
+img,input,div{border:0;}
+li{list-style:none;}
+input:focus{
+	background-color:rgba(167,200,207,0.3)!important;
+}
+.q{
+	background-image: url(../img/mao.png);
+	width:1033px;
+	height:644px;
+	margin:0 auto;
+	margin-top:15px;
+	background-position: -1px -1px;
+	position:relative;
+	overflow:hidden;
+}
+.qw{
+	float:right;
+	font-size:50px;
+}
+.qw p{
+	font-family:"FangSong";
+	font-weight:700;
+	position:absolute;
+	top:-30px;
+	right:100px;
+}
+.qe{
+	width: 360px;
+	height: 400px;
+	position:absolute;
+	top:50px;
+}
+.qe li{
+	width: 350px;
+	height: 50px;
+	border:3px solid rgb(3,15,27);
+	border-radius:10px;
+	margin:15px 0 0 40px;
+	line-height:50px;
+	text-align:center;
+	font-size:15px;
+	overflow:hidden;
+}
+.qwq{
+	display:inline-block;
+	width: 100px;
+	height: 50px;
+}
+.qe input{
+	width: 250px;
+	height: 50px;
+	float:right;
+	background-color:transparent;
+}
+.qeq{
+	width: 350px;
+	height: 50px;
+	border:2px solid rgb(3,15,27);
+	/*border-radius:10px;*/
+	margin:444px 40px;
+}
+.qeq button{
+	width: 350px;
+	height: 50px;
+	background-color:rgb(38,79,101);
+	font-size:20px;
+	font-family:"FangSong";
+}
